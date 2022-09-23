@@ -12,14 +12,17 @@ body {
     border: 10px solid var(--secColor);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*header*/
 
 .header {
-
     border-bottom: 5px solid var(--secColor);
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
     .header {
     padding: 30px;
     border-bottom: 5px solid var(--secColor);
@@ -54,7 +57,7 @@ body {
     padding-bottom: 10px;
 }
 
-@media(min-width:768px) {
+@media(min-width:992px) {
 .nav-bar {
     padding-top: 30px;
 }
@@ -234,6 +237,27 @@ h2 {
     padding: 15px;
 }
 
+.work-box {
+    padding: 30px;
+}
+
+.work-btn {
+    border: 5px solid var(--fontColor);
+    padding: 7px;
+    border-radius: 10%;
+    background-color: var(--fontColor);
+    font-weight: bold;
+    color: var(--nameColor);
+    text-decoration: none;
+}
+
+.work-btn:hover {
+    background-color: var(--primColor);
+    color: var(--fontColor);
+    border: 5px solid var(--primColor);
+    font-weight: bold;
+}
+
 /* footer */
 
 .footer-section {
@@ -241,10 +265,14 @@ h2 {
     padding-top: 20px;
 }
 
-.copyright {
+.footer-text {
     text-align: center;
     font-size: 13px;
     padding-top: 10px;
+}
+
+.footer-span {
+    font-weight: bold;
 }
 
 @media(min-width:768px) {
@@ -252,7 +280,19 @@ h2 {
         padding: 30px;
     }
 
-    .copyright {
+    .footer-text {
+        text-align: right;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width:992px) {
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-text {
         text-align: right;
         padding-top: 30px;
         font-size: 15px;
