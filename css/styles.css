@@ -280,6 +280,10 @@ h2 {
         padding: 30px;
     }
 
+    .footer-logo {
+        padding-top: 60px;
+    }
+
     .footer-text {
         text-align: right;
         padding-top: 20px;
