@@ -219,6 +219,30 @@ h2 {
     }
 }
 
+@media(min-width:1024px) {
+    .about-text {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1440px) {
+    .about-section {
+        padding: 100px;
+    }
+
+    .about-box {
+        padding: 0;
+    }
+
+    .about-text {
+        font-size: 25px;
+    }
+
+    .red-img {
+        width: 100%;
+    }
+}
+
 .about-title {
     color: #040F0F;
     text-shadow: 1px 2px 5px var(--primColor);
@@ -269,6 +293,13 @@ h2 {
     text-align: center;
     font-size: 13px;
     padding-top: 10px;
+}
+
+.email-link, .phone-link {
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .footer-span {
