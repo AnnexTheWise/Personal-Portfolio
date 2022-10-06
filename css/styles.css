@@ -68,7 +68,7 @@ html {
     text-shadow: 1px 2px 5px var(--primColor);
     text-decoration: none;
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 13px;
     text-transform: capitalize;
 }
     
@@ -129,6 +129,7 @@ h2 {
 
 .box {
     padding-top: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -161,6 +162,17 @@ h2 {
 .work-preview {
     text-align: center;
     padding-bottom: 30px;
+    color: #040F0F;
+    text-shadow: 1px 2px 5px var(--primColor);
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+@media(max-width:320px) {
+    .work-preview {
+        font-size: 20px;
+    }
 }
 
 .preview-section {
@@ -188,6 +200,7 @@ h2 {
 .about-text {
     color: var(--fontColor);
     font-size: 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 .red-img {
@@ -235,7 +248,7 @@ h2 {
     }
 
     .about-text {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .red-img {
@@ -273,6 +286,7 @@ h2 {
     font-weight: bold;
     color: var(--nameColor);
     text-decoration: none;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 .work-btn:hover {
@@ -292,7 +306,7 @@ h2 {
 .footer-text {
     text-align: center;
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .email-link, .phone-link {
@@ -318,7 +332,7 @@ h2 {
     .footer-text {
         text-align: right;
         padding-top: 20px;
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -330,7 +344,7 @@ h2 {
     .footer-text {
         text-align: right;
         padding-top: 30px;
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
